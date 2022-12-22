@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Login with valid user","SUCCESS","2022-12-22T04:59:34.606765238Z[Etc/UTC]","0.0","0.41"
+"Valid Login","Login with valid credentials","SUCCESS","2022-12-22T05:58:49.048825427Z[Etc/UTC]","0.0","0.46"
