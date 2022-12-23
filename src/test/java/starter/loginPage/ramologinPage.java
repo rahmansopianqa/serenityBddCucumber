@@ -3,8 +3,8 @@ package starter.loginPage;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
-@DefaultUrl("")
 
+@DefaultUrl("https://apg-stagingramo.barransdemo.com/login")
 public class ramologinPage extends PageObject {
 
     public void setuserTxtBox(String username){

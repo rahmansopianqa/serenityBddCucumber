@@ -1,6 +1,5 @@
 package starter.loginPage;
 
-import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
 
 public class loginPage {
@@ -9,7 +8,7 @@ public class loginPage {
 
     @Step
     public void openAplication(){
-        loginPage.open("https://apg-stagingramo.barransdemo.com/login");
+        loginPage.open();
     }
     @Step
     public void username(String username){

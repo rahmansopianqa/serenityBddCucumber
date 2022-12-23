@@ -1,10 +1,13 @@
 package starter.dashboardPage;
 
 import net.serenitybdd.core.pages.PageObject;
+import org.openqa.selenium.By;
 
 public class ramoDashboardPage extends PageObject {
 
     public void dashboardVerified(){
-        System.out.println(getDriver().getTitle());
+
+        $(By.xpath("//*[text() = 'Dashboard']"));
     }
+
 }
