@@ -7,6 +7,14 @@ public class dashboardPage {
 
     ramoDashboardPage dashboard;
     @Step
+    public void masterDataMenu(){
+        dashboard.masterData();
+    }
+    @Step
+    public void taxesMenu(){
+        dashboard.taxes();
+    }
+    @Step
     public boolean verifyDashboard() {
         try {
             dashboard.dashboardVerified();
@@ -16,4 +24,5 @@ public class dashboardPage {
             return false;
         }
     }
+
 }

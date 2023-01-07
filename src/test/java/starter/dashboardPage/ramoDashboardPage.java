@@ -9,5 +9,10 @@ public class ramoDashboardPage extends PageObject {
 
         $(By.xpath("//*[text() = 'Dashboard']"));
     }
-
+    public void masterData(){
+        $(By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/img[1]")).click();
+    }
+    public void taxes(){
+        $(By.xpath("//div[contains(text(),'Taxes')]")).click();
+    }
 }
